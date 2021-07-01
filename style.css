@@ -1,0 +1,90 @@
+/*Import Font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/*Halaman Keseluruhan*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Body*/
+body {
+  background-color: #5e5e5e;
+}
+
+/*Container Class*/
+.container {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
+  width: 100%;
+  background: white;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/*H2 Pada Container Class*/
+.container h2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Form */
+.form {
+  padding: 30px 40px;
+}
+
+/* Form Setting */
+.form-setting {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.form-setting label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-setting input {
+  display: block;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  width: 100%;
+  padding: 5px;
+}
+
+/*Button*/
+
+.form button {
+  font-family: 'Raleway', sans-serif;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  width: 100%;
+}
+
+.form button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+/*Login*/
+.login {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.login a {
+  color: black;
+}

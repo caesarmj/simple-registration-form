@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Sign Up</h2>
+      </div>
+      <form name="form" action="#" onsubmit="return validateForm()" method="POST" class="form" id="form">
+        <div class="form-setting">
+          <label>Username</label>
+          <input type="text" name="username" placeholder="masukkan username" id="username" />
+        </div>
+        <div class="form-setting">
+          <label>E-mail</label>
+          <input type="email" name="email" placeholder="masukkan email" id="email" />
+        </div>
+        <div class="form-setting">
+          <label>Password</label>
+          <input type="password" name="password" placeholder="masukkan password" id="password" />
+        </div>
+        <div class="form-setting">
+          <label>Konfirmasi Password</label>
+          <input type="password" name="confirmpassword" placeholder="masukkan password" id="confirmpassword" />
+        </div>
+        <button>Submit</button>
+      </form>
+      <div class="login">
+        <p>Sudah mempunyai akun?</p>
+        <br />
+        <a href="">Log In</a>
+      </div>
+    </div>
+  </body>
+</html>
